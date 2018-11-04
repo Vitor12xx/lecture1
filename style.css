@@ -1,90 +1,106 @@
+@charset "UTF-8";
 /* This is the div with the Pages */
-#welcome{
-	padding:10px;
-	background-color: lightgrey;
-	width: 50%;
-	min-width:310px;
-	max-width:530px;
+#welcome {
+  padding: 10px;
+  background-color: silver;
+  width: 50%;
+  min-width: 310px;
+  max-width: 530px;
 }
+
 /* This is for de div in Page 1*/
-#headers{
-	background-color:purple;
-	padding:10px;
-	color:red;
-	min-width: 310px;
-	max-width:530px;
-	width:50%;
+#headers {
+  background-color: gold;
+  padding: 10px;
+  color: red;
+  min-width: 310px;
+  max-width: 530px;
+  width: auto;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
 }
-#headers>h3{
-	color:black;
+
+#headers > h3 {
+  color: black;
 }
 
 /* This is for de div in Page 2 */
-#sections{
-	padding:10px;
-	background-color: purple;
-	min-width: 310px;
-	max-width:530px;
-	width:50%;
-}
-#sections ol>li{
-	color:red;
-}
-
-#sections #first_ul>li{
-	color: green;
+#sections {
+  padding: 10px;
+  background-color: gold;
+  min-width: 310px;
+  max-width: 530px;
+  width: auto;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
 }
 
-#sections #second_ul>li{
-	color:blue;
+#sections ol > li {
+  color: red;
+}
+
+#sections #first_ul > li {
+  color: green;
+}
+
+#sections #second_ul > li {
+  color: blue;
 }
 
 /* This is for the div in the Page 3 */
-#forms{
-	padding:10px;
-	min-width: 310px;
-	max-width:530px;
-	width:50%;
-	background-color: purple;
+#forms {
+  padding: 10px;
+  min-width: 310px;
+  max-width: 530px;
+  width: auto;
+  background-color: gold;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
 }
 
 /* This is for the div in the Page 4 */
-#paises{
-	padding:10px;
-	min-width: 310px;
-	max-width:530px;
-	width:50%;
-	background-color: purple;
+#paises {
+  padding: 10px;
+  min-width: 310px;
+  max-width: 530px;
+  width: auto;
+  background-color: gold;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
 }
 
-input[type=text]{
-	background-color:yellow;
+input[type=text] {
+  background-color: yellow;
 }
 
-input[type=number]{
-	background-color:red;
+input[type=number] {
+  background-color: red;
 }
 
 /* This is for the div in the Page 5 */
-#hovers{
-	padding:10px;
-	min-width: 310px;
-	max-width:530px;
-	width:50%;
-	background-color: purple;
+#hovers {
+  padding: 10px;
+  min-width: 310px;
+  max-width: 530px;
+  width: auto;
+  background-color: gold;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
 }
 
-#button_page5{
-	font-size: 24px;
-	background-color:green;
-	border:none;
+#button_page5 {
+  font-size: 24px;
+  background-color: green;
+  border: none;
 }
 
-#button_page5:hover{
-	background-color:orange;
+#button_page5:hover {
+  background-color: silver;
 }
 
 /* Adding the 'arrow' before each header (wich all have h3 tag)*/
-h3::before{
-	content: "\21d2 ";
+h3::before {
+  content: "⇒";
 }
+
+/*# sourceMappingURL=style.css.map */
