@@ -1,3 +1,4 @@
+/* This is the div with the Pages */
 #welcome{
 	padding:10px;
 	background-color: lightgrey;
@@ -5,7 +6,7 @@
 	min-width:310px;
 	max-width:530px;
 }
-
+/* This is for de div in Page 1*/
 #headers{
 	background-color:purple;
 	padding:10px;
@@ -18,6 +19,7 @@
 	color:black;
 }
 
+/* This is for de div in Page 2 */
 #sections{
 	padding:10px;
 	background-color: purple;
@@ -37,6 +39,7 @@
 	color:blue;
 }
 
+/* This is for the div in the Page 3 */
 #forms{
 	padding:10px;
 	min-width: 310px;
@@ -45,6 +48,7 @@
 	background-color: purple;
 }
 
+/* This is for the div in the Page 4 */
 #paises{
 	padding:10px;
 	min-width: 310px;
@@ -61,6 +65,7 @@ input[type=number]{
 	background-color:red;
 }
 
+/* This is for the div in the Page 5 */
 #hovers{
 	padding:10px;
 	min-width: 310px;
@@ -72,9 +77,14 @@ input[type=number]{
 #button_page5{
 	font-size: 24px;
 	background-color:green;
-	border: 2px solid brown;
+	border:none;
 }
 
 #button_page5:hover{
 	background-color:orange;
+}
+
+/* Adding the 'arrow' before each header (wich all have h3 tag)*/
+h3::before{
+	content: "\21d2 ";
 }
