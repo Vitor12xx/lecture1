@@ -1,0 +1,49 @@
+#welcome{
+	padding:10px;
+	background-color: lightgrey;
+	width: 50%;
+	min-width:310px;
+}
+
+#headers{
+	background-color:purple;
+	padding:10px;
+	color:red;
+	min-width: 310px;
+	width:50%;
+}
+#headers>h3{
+	color:black;
+}
+
+#sections{
+	padding:10px;
+	background-color: purple;
+	min-width: 310px;
+	width:50%;
+}
+#sections ol>li{
+	color:red;
+}
+
+#sections #first_ul>li{
+	color: green;
+}
+
+#sections #second_ul>li{
+	color:blue;
+}
+
+#forms{
+	padding:10px;
+	min-width: 310px;
+	width:50%;
+	background-color: purple;
+}
+
+#countries{
+	padding:10px;
+	min-width: 310px;
+	width:50%;
+	background-color: purple;
+}
