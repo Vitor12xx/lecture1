@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lecture1</title>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Hello World!</h1>
-	<p>New Feature</p>
+	<h1 id="home">This is index.html</h1>
+	<div id="welcome">
+		<h2>Pages:</h2>
+
+		<pre style="font-size: 25px;"> <a href="index.html">All</a> <a href="page1.html">1</a> <a href="page2.html">2</a> <a href="page3.html">3</a> <a href="page4.html">4</a></pre>
+	</div>
+
+	<div id="headers">
+		<h3>Headers:</h3>
+		<h1>Header 1</h1>
+		<h2>Header 2</h2>
+	</div>
+
+	<section id="sections">
+		<h3>Lists:</h3>
+		<ol>
+			<li>item one</li>
+			<li>item two</li>
+			<ul id="first_ul">
+				<li>sublist item one</li>
+				<ul id="second_ul">
+					<li>sub-sublist item one</li>
+					<li>sub-sublist item two</li>
+				</ul>
+				<li>sublist item two</li>
+			</ul>
+			<li>item three</li>
+		</ol>
+	</section>
+
+	<section id="forms">
+		<h3>Forms:</h3>
+		<form>
+			<input type="text" name="name" placeholder="First Name">
+			<input type="text" name="name" placeholder="Last Name">
+			<input type="number" name="name" placeholder="Age">
+		</form>
+	</section>
 </body>
 </html>
