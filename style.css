@@ -3,6 +3,7 @@
 	background-color: lightgrey;
 	width: 50%;
 	min-width:310px;
+	max-width:530px;
 }
 
 #headers{
@@ -10,6 +11,7 @@
 	padding:10px;
 	color:red;
 	min-width: 310px;
+	max-width:530px;
 	width:50%;
 }
 #headers>h3{
@@ -20,6 +22,7 @@
 	padding:10px;
 	background-color: purple;
 	min-width: 310px;
+	max-width:530px;
 	width:50%;
 }
 #sections ol>li{
@@ -37,6 +40,7 @@
 #forms{
 	padding:10px;
 	min-width: 310px;
+	max-width:530px;
 	width:50%;
 	background-color: purple;
 }
@@ -44,6 +48,33 @@
 #paises{
 	padding:10px;
 	min-width: 310px;
+	max-width:530px;
 	width:50%;
 	background-color: purple;
+}
+
+input[type=text]{
+	background-color:yellow;
+}
+
+input[type=number]{
+	background-color:red;
+}
+
+#hovers{
+	padding:10px;
+	min-width: 310px;
+	max-width:530px;
+	width:50%;
+	background-color: purple;
+}
+
+#button_page5{
+	font-size: 24px;
+	background-color:green;
+	border: 2px solid brown;
+}
+
+#button_page5:hover{
+	background-color:orange;
 }
